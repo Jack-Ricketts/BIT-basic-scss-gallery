@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 90vh;
+  margin: 1%;
+}
+.container h1 {
+  text-align: center;
+  font-size: 4vh;
+  width: 100%;
+}
+.container img {
+  width: 30%;
+  height: 40%;
+  margin-top: 2%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(50%);
+}
+.container img:hover {
+  filter: none;
+  transition: 0.5s;
+}/*# sourceMappingURL=style.css.map */
